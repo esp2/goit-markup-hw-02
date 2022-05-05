@@ -18,7 +18,7 @@
     }
 
     .section-main {
-     text-decoration: none  
+     text-decoration: none
      }
 
     .container nav {
@@ -53,7 +53,6 @@
     font-family:'Roboto';
     color: var(--maim-black-color);
     text-decoration: none;
-    
   }
    .current {
    color: var(--maim-blu-color);
@@ -73,7 +72,8 @@
     }
 
     .section-hero {
-    color: var(--maim-darck2-color);
+    color: var(--maim-text-color);
+    background-color: var(--maim-darck2-color) ;  
     }
     
     .section3 {
@@ -90,7 +90,15 @@
      color: var(--maim-text-color);
      background-color: var(--maim-blu-color);
      border-radius: 4px;
+     border: none;
     }
+    .button-primary2 {
+      font-family: 'Roboto 700';
+      color: var(--maim-black-color);
+      background-color: var(--maim-white-color);
+      border-radius: 4px;
+      border: none;
+     }
 
     .text {
       font-family: 'Roboto 700';
@@ -138,11 +146,14 @@
  
  .page-footer {
   color: var(--maim-darck2-color);
+  background-color: var(--maim-darck2-color);
   
  }
 
- .page-adress {
+ .address {
    font-family: 'Roboto 400';
    color: var(--maim-text-color);
    text-decoration: none;
+   margin-left: 32px;
  }
+ 
