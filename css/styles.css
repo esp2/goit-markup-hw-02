@@ -43,10 +43,6 @@
       padding: 0;
       margin: 0;
      }
-
-    .list-style {
-    list-style: none;
-    }
     
     .main-nav {
     color: var(--maim-black-color);
@@ -97,6 +93,7 @@
     
     .section3 {
       color: var(--maim-darck2-color);
+      
     }
 
     .button-primary {
@@ -131,17 +128,26 @@
       letter-spacing: 0.03em; 
     }
     .list-style{
-      color: var(--maim-darck2-color);;
+      color: var(--maim-black-color);
        font-size: 14px;
        margin-left: 32px;
        list-style: none ;
        font-family: 'Roboto';
        font-style: normal;
-       font-weight: 400, 700;
+       font-weight: 700;
        font-size: 14px;
-       line-height: 24, 16px;
+       line-height: 16px;
        letter-spacing: 0.03em;
        text-transform: uppercase;
+     }
+     .list-style> .text-two {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--maim-darck-color);
+    
      }
      .section-title2 {
      color: var(--maim-black-color);
@@ -190,10 +196,6 @@ letter-spacing: 0.03em;
   line-height: 19px;
   
   letter-spacing: 0.03em;
- font-size: 16px;
- line-height: 19px;
-/* identical to box height */
-letter-spacing: 0.03em;
  }
  .page-footer {
   background-color: var(--maim-darck2-color);
