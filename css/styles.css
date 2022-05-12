@@ -86,10 +86,11 @@
     .section-title1 {
       color: var(--maim-text-color);
       font-weight: 900;
-      font-size: 24px;
-      line-height: 2.5;
+      font-size: 44px;
+      line-height: 1.36;
       letter-spacing: 0.06em;
       text-transform: uppercase;
+      font-family: 'Roboto';
     }
     .section3 {
       color: var(--maim-darck2-color);
@@ -166,9 +167,9 @@
  }
  .title-photo {
   color: var(--maim-black-color);
-  font-weight:500;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight:700;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.03em;
  }
  .title-text {
@@ -194,13 +195,14 @@
  }
 
  .address {
-  color: var(--maim-darck-color);
+  color: var(--maim-text-color);
   font-style: normal;
    margin-left: 32px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   
  }
  
