@@ -6,6 +6,7 @@
    --maim-darck-color: #757575;
    --maim-black-color:#212121;
    --maim-darck2-color:#2F303A;
+   --maim-text1-color: #FFFFFF99;
  }
     body {
     background: #FFFFFF;
@@ -195,7 +196,7 @@
  }
 
  .address {
-  color: var(--maim-text-color);
+  color: var(--maim-text1-color);
   font-style: normal;
    margin-left: 32px;
   font-weight: 400;
